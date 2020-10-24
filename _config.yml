@@ -7,7 +7,7 @@
 # 井号后面的文字是说明文档，不会被程序读取。
 name: PacifcTalk
 # 描述/签名
-description: C'est La Vie
+description: Fate to me, such a lucrative. That time, whether the enlarged has been insufficient to read.
 
 #
 # 下面的设定都是可选的
@@ -37,7 +37,7 @@ paginate: 8
 # 你的社交网络链接，它们会作为图标出现在你的网站页脚中，可选填写
 footer-links: 
 
-  email: 2927098@qq.com 
+  email: pacificbiubiu@gmail.com 
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
   #github: FromEndWorld/loffer #https://github.com/<>
@@ -51,7 +51,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: Copyright (c) 2019 来自中世界
+footer-text: Copyright (c) 2020 PacificTalk
 
 # 输入Disqus shortname，即可添加评论区，细节可阅读文档。
 disqus: loffer #shortname
