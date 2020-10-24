@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Sevico的博客 – 写一些学习心得</title>
+
+      <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="写一些学习心得">
+    <meta property="og:description" content="写一些学习心得" />
+    
+    <meta name="author" content="Sevico的博客" />
+
+    
+  <!-- Async font loading -->
+<script>
+  window.WebFontConfig = {
+      custom: {
+          families: ['Spoqa Han Sans:100,300,400,700'],
+          urls: ['https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css']
+      },
+      timeout: 60000
+  };
+  (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+      s.parentNode.insertBefore(wf, s);
+  })(document);
+</script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="Sevico的博客 - 写一些学习心得" href="/feed.xml" />
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png">
+  <script src="https://kit.fontawesome.com/56f7faf3f4.js"></script>
+
+
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+
+</head>
+  <body>
+    <div class="wrapper-sidebar">
+  <header class="sidebar clearfix">
+    <div class="site-info">
+      
+        <a href="/" class="site-avatar"><img src="https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png" /></a>
+       
+      <h1 class="site-name"><a href="/">Sevico的博客</a></h1>
+      <p class="site-description">写一些学习心得</p>
+    </div>
+  </header>
+
+  <div class="navlist">
+    <nav>
+      
+      
+      <a href="/">首页</a>
+      
+      
+      
+      <a href="/about">关于</a>
+      
+      
+      
+      <a href="/archive">归档</a>
+      
+      
+      
+      <a href="/tags">标签</a>
+      
+      
+    </nav>
+  </div>
+
+  <div class="wrapper-footer-desktop">
+    <footer class="footer">
+      <!-- Refer to https://codepen.io/ruandre/pen/howFi -->
+<ul class="svg-icon">
+
+  
+  
+  
+
+  
+
+  
+  <li><a href="mailto:2927098@qq.com" class="icon-8 email" title="Email"><svg viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg><!--[if lt IE 9]><em>Email</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul>
+
+
+
+<p>Copyright (c) 2019 来自中世界</p>
+
+    </footer>
+  </div>
+</div>
+
+    <div id="main" role="main" class="wrapper-content">
+      
+
+<div class="posts">
+  
+    <article class="post">
+      <h1>
+        <a href="/%E9%98%85%E8%AF%BB%E6%BA%90%E7%A0%81%E5%B0%8F%E7%BB%93/">pt_prev是做什么用的？</a>
+      </h1>
+
+      <div clsss="meta">
+        <span class="date">
+          2019-08-17
+        </span>
+
+        <ul class="tag">
+          
+        </ul>
+      </div>
+
+      <div class="entry">
+        <p>最近通过查资料，搞明白了一个困扰我很久的问题。整理到这里。</p>
+
+<p>在阅读Linux内核网络收报部分的源码时，一个绕不过的函数便是netif_receive_skb。它将网卡收报的报文上交给上层协议。它的具体原理这里不深究，只是其中说明一个如下的代码片段：</p>
+<div class="highlighter-rouge"><div class="highlight"><pr...
+      </div>
+
+      <a href="/%E9%98%85%E8%AF%BB%E6%BA%90%E7%A0%81%E5%B0%8F%E7%BB%93/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+      <h1>
+        <a href="/%E5%88%86%E6%9E%90Linux%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8(1)/">分析Linux系统调用-开篇</a>
+      </h1>
+
+      <div clsss="meta">
+        <span class="date">
+          2019-08-17
+        </span>
+
+        <ul class="tag">
+          
+        </ul>
+      </div>
+
+      <div class="entry">
+        <p>在不同类型的操作系统上，系统调用都是内核给用户态的应用程序提供操作原语最主要的方式。虽然Linux内核在此基础上还有其他的途径来给用户程序提供一些接口(例如proc文件系统，netlink)，但也或多或少地依赖了系统调用。所以对Linux系统调用的实现进行分析，打开这个黑盒子，能进一步了解其底层实现，进而将一些操作系统概念与真实世界的实作联系起来，甚至能发现许多手册上没有提到，或者表述...
+      </div>
+
+      <a href="/%E5%88%86%E6%9E%90Linux%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8(1)/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+      <h1>
+        <a href="/welcome-to-jekyll/">Welcome to Jekyll!</a>
+      </h1>
+
+      <div clsss="meta">
+        <span class="date">
+          2019-08-17
+        </span>
+
+        <ul class="tag">
+          
+        </ul>
+      </div>
+
+      <div class="entry">
+        <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ...
+      </div>
+
+      <a href="/welcome-to-jekyll/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+      <h1>
+        <a href="/document/">LOFFER文档</a>
+      </h1>
+
+      <div clsss="meta">
+        <span class="date">
+          2019-06-02
+        </span>
+
+        <ul class="tag">
+          
+          <li>
+            <a href="/tags#sample">
+              sample
+            </a>
+          </li>
+          
+          <li>
+            <a href="/tags#document">
+              document
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="entry">
+        <p>LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。</p>
+
+<p>这是一个可以通过Fork直接发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。</p>
+
+<p>当你看到不认识的术语，请忽略它，我知道程序员不说人话，我都不是程序员但是我已经开始意识到这是因为我们不知道这些概念用人话怎么...
+      </div>
+
+      <a href="/document/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+      <h1>
+        <a href="/chinese-markdown-cheatsheet/">Markdown语法简介</a>
+      </h1>
+
+      <div clsss="meta">
+        <span class="date">
+          2013-07-16
+        </span>
+
+        <ul class="tag">
+          
+          <li>
+            <a href="/tags#sample">
+              sample
+            </a>
+          </li>
+          
+          <li>
+            <a href="/tags#markdown">
+              markdown
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="entry">
+        <p>本中文版Markdown语法简介来自博客 <a href="https://blog.shengbin.me/posts/markdown-syntax">https://blog.shengbin.me/posts/markdown-syntax</a></p>
+
+<p>Markdown语法的完整介绍在这里：<a href="http://daringfireball.net/pro...
+      </div>
+
+      <a href="/chinese-markdown-cheatsheet/" class="read-more">Read More</a>
+    </article>
+  
+</div>
+
+<div class="pagination">
+  
+  
+</div>
+
+    </div>
+
+    
+
+  </body>
+
+  <div class="wrapper-footer-mobile">
+    <footer class="footer">
+      <!-- Refer to https://codepen.io/ruandre/pen/howFi -->
+<ul class="svg-icon">
+
+  
+  
+  
+
+  
+
+  
+  <li><a href="mailto:2927098@qq.com" class="icon-8 email" title="Email"><svg viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg><!--[if lt IE 9]><em>Email</em><![endif]--></a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</ul>
+
+
+
+<p>Copyright (c) 2019 来自中世界</p>
+
+    </footer>
+
+
+</html>
